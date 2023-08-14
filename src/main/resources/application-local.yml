@@ -1,0 +1,35 @@
+#server:
+#  port: 8092
+#  servlet:
+#    context-path: /infovision
+#spring:
+#  application:
+#    name: infovision-canteen-service
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/Canteen?createDatabaseIfNotExist=true
+#    username: postgres
+#    password: 0367
+#    driver-class-name: org.postgresql.Driver
+#    
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#    properties:
+#      hibernate:
+#        database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+#    main:
+#      web-application-type: none
+#swagger:
+#  url: http://localhost:8092/infovision
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#  instance:
+#    hostname: localhost
+#    
+#EmailDetails:
+#  emailAddress: Madhu.Mangali@infovision.com
+#  emailPassword: Sat44055
+#  loginURL: https://https://backendapp123.azurewebsites.net/infovision/forgorpassword

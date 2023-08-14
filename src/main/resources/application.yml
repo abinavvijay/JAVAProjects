@@ -1,0 +1,12 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /infovision
+    
+spring:
+  application:
+    name: infovision-canteen-service
+  profiles:
+    active: dev
+    
+
